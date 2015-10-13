@@ -28,17 +28,17 @@ this_dir = os.path.dirname(__file__)
 readme_filename = os.path.join(this_dir, 'README.md')
 requirements_filename = os.path.join(this_dir, 'requirements.txt')
 
-PACKAGE_NAME = 'facebookads'
+PACKAGE_NAME = 'facebookads25'
 PACKAGE_VERSION = '2.5.0'
 PACKAGE_AUTHOR = 'Facebook'
 PACKAGE_AUTHOR_EMAIL = ''
-PACKAGE_URL = 'https://github.com/facebook/facebook-python-ads-sdk'
+PACKAGE_URL = 'https://github.com/VantageAnalytics/facebook-python-ads-sdk-vantage'
 PACKAGE_DOWNLOAD_URL = \
-    'https://github.com/facebook/facebook-python-ads-sdk/tarball/' + PACKAGE_VERSION
-PACKAGES = ['facebookads', 'facebookads.test', 'facebookads.utils']
+    'https://github.com/VantageAnalytics/facebook-python-ads-sdk-vantage/tarball/' + PACKAGE_VERSION
+PACKAGES = ['facebookads25', 'facebookads25.test', 'facebookads25.utils']
 PACKAGE_DATA = {
-    'facebookads': ['*.crt'],
-    'facebookads.test': ['*.jpg']
+    'facebookads25': ['*.crt'],
+    'facebookads25.test': ['*.jpg']
 }
 PACKAGE_LICENSE = 'LICENSE.txt'
 PACKAGE_DESCRIPTION = 'Facebook Ads API SDK'
