@@ -22,13 +22,13 @@
 api module contains classes that make http requests to Facebook's graph API.
 """
 
-from facebookads.exceptions import (
+from facebookads25.exceptions import (
     FacebookRequestError,
     FacebookBadObjectError,
 )
-from facebookads.session import FacebookSession
-from facebookads.utils import urls
-from facebookads.utils import version
+from facebookads25.session import FacebookSession
+from facebookads25.utils import urls
+from facebookads25.utils import version
 import json
 import six
 import collections

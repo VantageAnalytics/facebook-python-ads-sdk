@@ -23,14 +23,14 @@ objects module contains classes that represent and help traverse nodes on the
 Ads API.
 """
 
-from facebookads.exceptions import (
+from facebookads25.exceptions import (
     FacebookBadObjectError,
     FacebookError,
     FacebookUnavailablePropertyException,
 )
-from facebookads.api import FacebookAdsApi
-from facebookads.session import FacebookSession
-from facebookads.mixins import (
+from facebookads25.api import FacebookAdsApi
+from facebookads25.session import FacebookSession
+from facebookads25.mixins import (
     CanArchive,
     CanValidate,
     CannotCreate,
@@ -41,7 +41,7 @@ from facebookads.mixins import (
     HasBidInfo,
     HasAdLabels,
 )
-from facebookads.video_uploader import (
+from facebookads25.video_uploader import (
     VideoUploader,
     VideoEncodingStatusChecker,
 )

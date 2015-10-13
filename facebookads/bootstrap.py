@@ -27,10 +27,10 @@ sys.path.insert(1, repo_dir)
 
 import __main__ as main
 import json
-from facebookads.session import FacebookSession
-from facebookads.api import FacebookAdsApi
-from facebookads.objects import *
-from facebookads.exceptions import FacebookError
+from facebookads25.session import FacebookSession
+from facebookads25.api import FacebookAdsApi
+from facebookads25.objects import *
+from facebookads25.exceptions import FacebookError
 
 
 class Authentication():

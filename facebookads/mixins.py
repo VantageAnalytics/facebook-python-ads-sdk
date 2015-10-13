@@ -22,7 +22,7 @@
 mixins contains attributes that objects share
 """
 
-from facebookads.exceptions import FacebookBadObjectError
+from facebookads25.exceptions import FacebookBadObjectError
 
 
 class CanValidate(object):

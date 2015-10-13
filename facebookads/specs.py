@@ -23,8 +23,8 @@ specs module contains classes that help you define and create specs for use
 in the Ads API.
 """
 
-from facebookads.objects import AbstractObject
-from facebookads.mixins import ValidatesFields
+from facebookads25.objects import AbstractObject
+from facebookads25.mixins import ValidatesFields
 
 
 class ObjectStorySpec(ValidatesFields, AbstractObject):
